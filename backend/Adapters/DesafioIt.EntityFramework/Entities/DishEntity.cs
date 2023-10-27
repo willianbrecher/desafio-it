@@ -17,6 +17,7 @@ namespace DesafioIt.EntityFramework.Entities
         public string Description { get; set; }
         public double Price { get; set; }
         public string ServingSize { get; set; }
+        public string photo { get; set; }
         public DishType Type { get; set; }
     }
 }

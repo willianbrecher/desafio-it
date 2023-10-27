@@ -12,6 +12,7 @@ namespace DesafioIt.Application.Commands.Dishes
         public string Description { get; set; }
         public double Price { get; set; }
         public string ServingSize { get; set; }
+        public string Photo { get; set; }
         public DishType Type { get; set; }
     }
 }

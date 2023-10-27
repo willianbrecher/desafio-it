@@ -15,6 +15,12 @@ public class DesafioItContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasDefaultSchema("application");
+        modelBuilder.HasSequence<int>("OrderNumbers");
+
+        modelBuilder.Entity<OrderEntity>()
+            .Property(o => o.Code)
+            .HasDefaultValueSql("NEXT VALUE FOR OrderNumbers");
+
         base.OnModelCreating(modelBuilder);
     }
 }

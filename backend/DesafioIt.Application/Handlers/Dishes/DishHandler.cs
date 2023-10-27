@@ -1,7 +1,7 @@
 using AutoMapper;
 using DesafioIt.Application.Commands.Dishes;
 using DesafioIt.Application.Interfaces;
-using DesafioIt.Application.Queries.Items;
+using DesafioIt.Application.Queries.Dishes;
 using DesafioIt.Domain.Models;
 using DesafioIt.Domain.Models.Dishes;
 using DesafioIt.Domain.Repositories;
@@ -37,7 +37,7 @@ namespace DesafioIt.Application.Handlers.Dishes
         public Task<DishModel> Handle(UpdateDishCommand command, CancellationToken cancellationToken)
         {
             var dbItem = _dishRepository.Get(command.Id);
-            dbItem.Update(command.Name, command.Description, command.Price, command.ServingSize, command.Type);
+            dbItem.Update(command.Name, command.Description, command.Price, command.ServingSize, command.Photo, command.Type);
 
             _dishRepository.Save(dbItem);
             return Task.FromResult(dbItem);

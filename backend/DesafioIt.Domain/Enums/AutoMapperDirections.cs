@@ -15,5 +15,15 @@ namespace DesafioIt.Domain.Enums
         Desserts = 2,
         Beverages = 3
     }
+
+    public enum OrderStatus
+    {
+        Pending = 0,
+        Received = 1,
+        Preparing = 2,
+        Ready = 3,
+        Cancelled = 4
+    }
+
 }
 

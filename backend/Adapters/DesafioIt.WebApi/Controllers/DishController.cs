@@ -1,7 +1,6 @@
 ﻿using Autofac;
 using DesafioIt.Application.Commands.Dishes;
 using DesafioIt.Application.Queries.Dishes;
-using DesafioIt.Application.Queries.Items;
 using DesafioIt.Domain.Models;
 using DesafioIt.Domain.Models.Dishes;
 using DesafioIt.WebApi.Responses;
