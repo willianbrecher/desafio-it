@@ -1,0 +1,17 @@
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.Application.deps.json
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.Application.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.Application.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.Domain.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.EntityFramework.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.EntityFramework.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\bin\Debug\net6.0\DesafioIt.Domain.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.csproj.AssemblyReference.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.AssemblyInfoInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.AssemblyInfo.cs
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.csproj.CoreCompileInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.csproj.CopyComplete
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\refint\DesafioIt.Application.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\DesafioIt.Application.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\DesafioIt.Application\obj\Debug\net6.0\ref\DesafioIt.Application.dll

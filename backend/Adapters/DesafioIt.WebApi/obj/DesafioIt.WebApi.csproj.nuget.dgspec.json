@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.WebApi\\DesafioIt.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\DesafioIt.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\DesafioIt.EntityFramework.csproj",
+        "projectName": "DesafioIt.EntityFramework",
+        "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\DesafioIt.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\willian.brecher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willian.brecher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\DesafioIt.Domain.csproj": {
+                "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\DesafioIt.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.WebApi\\DesafioIt.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.WebApi\\DesafioIt.WebApi.csproj",
+        "projectName": "DesafioIt.WebApi",
+        "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.WebApi\\DesafioIt.WebApi.csproj",
+        "packagesPath": "C:\\Users\\willian.brecher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willian.brecher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\DesafioIt.Application.csproj": {
+                "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\DesafioIt.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\DesafioIt.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\DesafioIt.Application.csproj",
+        "projectName": "DesafioIt.Application",
+        "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\DesafioIt.Application.csproj",
+        "packagesPath": "C:\\Users\\willian.brecher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willian.brecher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\DesafioIt.EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\Adapters\\DesafioIt.EntityFramework\\DesafioIt.EntityFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\DesafioIt.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\DesafioIt.Domain.csproj",
+        "projectName": "DesafioIt.Domain",
+        "projectPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\DesafioIt.Domain.csproj",
+        "packagesPath": "C:\\Users\\willian.brecher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willian.brecher\\Documents\\Workspace\\willian\\desafio-it\\backend\\DesafioIt.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\willian.brecher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

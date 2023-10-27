@@ -1,0 +1,17 @@
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.EntityFramework.deps.json
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.EntityFramework.runtimeconfig.json
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.EntityFramework.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.EntityFramework.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.Domain.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\bin\Debug\net6.0\DesafioIt.Domain.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.AssemblyInfo.cs
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.csproj.CopyComplete
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\refint\DesafioIt.EntityFramework.dll
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\DesafioIt.EntityFramework.genruntimeconfig.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.EntityFramework\obj\Debug\net6.0\ref\DesafioIt.EntityFramework.dll
