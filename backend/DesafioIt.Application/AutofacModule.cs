@@ -26,7 +26,7 @@ namespace DesafioIt.Application
         {
             var applicationAssembly = AppDomain.CurrentDomain.Load($"DesafioIt.Application");
             var domainAssembly = AppDomain.CurrentDomain.Load($"DesafioIt.Domain");
-            var efAssembly = AppDomain.CurrentDomain.Load($"DesafioIt.Adapter.Entityframework");
+            var efAssembly = AppDomain.CurrentDomain.Load($"DesafioIt.Entityframework");
 
             #region MediatR
 
