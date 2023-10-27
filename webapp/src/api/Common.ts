@@ -9,7 +9,7 @@ export const handleErrors = (error: any) => {
 
 export const post = async <T>(route: string, body: T) => {
 	try {
-		return (await api.post(`${route}/create`, body)).data;
+		return (await api.post(`${route}`, body)).data;
 	} catch (e: any) {
 		return handleErrors(e);
 	}
@@ -17,7 +17,7 @@ export const post = async <T>(route: string, body: T) => {
 
 export const listAll = async <U>(route: string): Promise<U> => {
 	try {
-		return (await api.get(`${route}/list-all`)).data;
+		return (await api.get(`${route}/pageable-list`)).data;
 	} catch (e: any) {
 		return handleErrors(e);
 	}
