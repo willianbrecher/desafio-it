@@ -78,7 +78,7 @@ namespace DesafioIt.Application
 
             #region Repositories
 
-            builder.RegisterType<ItemRepository>().As<IItemRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<DishRepository>().As<IDishRepository>().InstancePerLifetimeScope();
             
             #endregion
 

@@ -1,10 +1,3 @@
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.csproj.AssemblyReference.cache
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.AssemblyInfoInputs.cache
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.AssemblyInfo.cs
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\appsettings.json
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\DesafioIt.WebApi.exe
@@ -54,6 +47,13 @@ C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\DesafioIt.Application.pdb
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\DesafioIt.Domain.pdb
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\bin\Debug\net6.0\DesafioIt.EntityFramework.pdb
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.csproj.AssemblyReference.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.AssemblyInfoInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.AssemblyInfo.cs
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\DesafioIt.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\willian.brecher\Documents\Workspace\willian\desafio-it\backend\Adapters\DesafioIt.WebApi\obj\Debug\net6.0\scopedcss\bundle\DesafioIt.WebApi.styles.css

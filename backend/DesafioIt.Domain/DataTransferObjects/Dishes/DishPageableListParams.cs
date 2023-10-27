@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesafioIt.Domain.DataTransferObjects.Items
+namespace DesafioIt.Domain.DataTransferObjects.Dishes
 {
-    public class ItemPageableListParams : PaginableQuery<ItemPageableListOrderOptions>
+    public class DishPageableListParams : PaginableQuery<DishPageableListOrderOptions>
     {
     }
 }

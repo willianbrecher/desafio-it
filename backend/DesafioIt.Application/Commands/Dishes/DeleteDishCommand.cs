@@ -2,9 +2,9 @@
 using DesafioIt.Application.Interfaces;
 using DesafioIt.Domain.Models;
 
-namespace DesafioIt.Application.Commands.Items
+namespace DesafioIt.Application.Commands.Dishes
 {
-	public class DeleteItemCommand : IApplicationCommand<EmptyResult>
+	public class DeleteDishCommand : IApplicationCommand<EmptyResult>
     {
         public Guid Id { get; set; }
 	}

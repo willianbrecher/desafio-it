@@ -23,8 +23,4 @@
     <None Remove="Commands\" />
     <None Remove="Commands\Items\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="Commands\Items\" />
-  </ItemGroup>
 </Project>
