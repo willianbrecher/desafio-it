@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DesafioIt.EntityFramework.Migrations
 {
     [DbContext(typeof(DesafioItContext))]
-    [Migration("20231027142930_CreateInitial")]
+    [Migration("20231027191803_CreateInitial")]
     partial class CreateInitial
     {
         /// <inheritdoc />
@@ -46,6 +46,10 @@ namespace DesafioIt.EntityFramework.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Photo")
                         .IsRequired()
                         .HasColumnType("text");
 

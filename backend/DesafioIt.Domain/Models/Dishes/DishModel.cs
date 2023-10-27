@@ -12,7 +12,7 @@ namespace DesafioIt.Domain.Models.Dishes
 {
     public class DishModel : EntityModel
     {
-        public DishModel(string name, string description, double price, string servingSize, string photo, DishType type, Guid? id) : base(id)
+        public DishModel(string name, string description, double price, string servingSize, string photo, DishType type, Guid? id = null) : base(id)
         {
             Name = name;
             Description = description;

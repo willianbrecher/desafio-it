@@ -3,21 +3,27 @@ using DesafioIt.Application.Commands.Dishes;
 using DesafioIt.Application.Hubs;
 using DesafioIt.Application.Interfaces;
 using DesafioIt.Application.Queries.Dishes;
+using DesafioIt.Domain.Enums;
 using DesafioIt.Domain.Models;
 using DesafioIt.Domain.Models.Dishes;
 using DesafioIt.Domain.Repositories;
 using Microsoft.AspNet.SignalR;
+using Microsoft.AspNet.SignalR.Hubs;
+using System.Xml.Linq;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace DesafioIt.Application.Handlers.Dishes
 {
     public class DishHandler : IApplicationCommandHandler<CreateDishCommand, DishModel>,
         IApplicationCommandHandler<UpdateDishCommand, DishModel>,
+        IApplicationCommandHandler<DeleteDishCommand, EmptyResult>,
+        IApplicationQueryHandler<DishDetailQuery, DishModel>,
         IApplicationQueryHandler<DishPageableListQuery, PageableResult<DishModel>>
     {
         private readonly IDishRepository _dishRepository;
         private readonly IMapper _mapper;
 
-        public DishHandler(IDishRepository dishRepository, IMapper mapper, IHubContext hubContext)
+        public DishHandler(IDishRepository dishRepository, IMapper mapper)
         {
             _dishRepository = dishRepository;
             _mapper = mapper;
@@ -53,9 +59,25 @@ namespace DesafioIt.Application.Handlers.Dishes
 
         public Task<DishModel> Handle(CreateDishCommand command, CancellationToken cancellationToken)
         {
-            var model = _mapper.Map<DishModel>(command);
+            var model = new DishModel(command.Name, command.Description, command.Price, command.ServingSize, command.Photo, command.Type, Guid.NewGuid());
             _dishRepository.Insert(model);
             return Task.FromResult(model);
+        }
+
+        public Task<DishModel> Handle(DishDetailQuery query, CancellationToken cancellationToken)
+        {
+            var dbItem = _dishRepository.Get(query.Id);
+
+            var model = new DishModel(dbItem.Name, dbItem.Description, dbItem.Price, dbItem.ServingSize, dbItem.Photo, dbItem.Type, dbItem.Id);
+
+            return Task.FromResult(model);
+        }
+
+        public Task<EmptyResult> Handle(DeleteDishCommand command, CancellationToken cancellationToken)
+        {
+            _dishRepository.Delete(command.Id);
+
+            return Task.FromResult(new EmptyResult());
         }
     }
 }

@@ -17,13 +17,13 @@ namespace DesafioIt.Application.Handlers.Orders
     {
         private readonly IOrderRepository _OrderRepository;
         private readonly IMapper _mapper;
-        private readonly IHubContext _hubContext;
+        //private readonly IHubContext _hubContext;
 
         public OrderHandler(IOrderRepository OrderRepository, IMapper mapper)
         {
             _OrderRepository = OrderRepository;
             _mapper = mapper;
-            _hubContext = GlobalHost.ConnectionManager.GetHubContext<OrderStatusHub>();
+            //_hubContext = GlobalHost.ConnectionManager.GetHubContext<OrderStatusHub>();
         }
 
         public Task<PageableResult<OrderModel>> Handle(OrderPageableListQuery query, CancellationToken cancellationToken)
@@ -54,7 +54,7 @@ namespace DesafioIt.Application.Handlers.Orders
             _OrderRepository.Save(dbOrder);
 
             // update the frontend hub with SignalR
-            _hubContext.Clients.All.SendAsync("UpdateOrder", dbOrder);
+            //_hubContext.Clients.All.SendAsync("UpdateOrder", dbOrder);
             return Task.FromResult(dbOrder);
         }
 

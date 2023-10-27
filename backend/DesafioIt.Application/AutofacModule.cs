@@ -1,10 +1,13 @@
 ﻿using Autofac;
 using AutoMapper;
+using DesafioIt.Application.Hubs;
 using DesafioIt.Domain.Enums;
 using DesafioIt.Domain.Repositories;
 using DesafioIt.EntityFramework;
 using DesafioIt.EntityFramework.Repositories;
 using MediatR;
+using Microsoft.AspNet.SignalR;
+using Microsoft.AspNet.SignalR.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
@@ -79,7 +82,12 @@ namespace DesafioIt.Application
             #region Repositories
 
             builder.RegisterType<DishRepository>().As<IDishRepository>().InstancePerLifetimeScope();
-            
+            builder.RegisterType<OrderRepository>().As<IOrderRepository>().InstancePerLifetimeScope();
+            builder.Register(ctx => ctx.Resolve<IDependencyResolver>()
+               .Resolve<IConnectionManager>()
+               .GetHubContext<OrderStatusHub>())
+               .Named<IHubContext>("OrderStatusHub");
+
             #endregion
 
             #region EF
