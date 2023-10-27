@@ -10,6 +10,8 @@ using EmptyResult = DesafioIt.Domain.Models.EmptyResult;
 
 namespace DesafioIt.WebApi.Controllers
 {
+    [Route("api/dishes")]
+    [ApiController]
     public class DishController : CommonController
     {
         public DishController(IComponentContext context) : base(context)
