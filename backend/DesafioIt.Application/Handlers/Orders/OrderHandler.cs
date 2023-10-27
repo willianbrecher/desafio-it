@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using DesafioIt.Application.Commands.Orders;
+using DesafioIt.Application.Hubs;
 using DesafioIt.Application.Interfaces;
 using DesafioIt.Application.Queries.Orders;
 using DesafioIt.Domain.Models;
 using DesafioIt.Domain.Models.Orders;
 using DesafioIt.Domain.Repositories;
+using Microsoft.AspNet.SignalR;
 using Microsoft.VisualBasic.FileIO;
 
 namespace DesafioIt.Application.Handlers.Orders
@@ -15,11 +17,13 @@ namespace DesafioIt.Application.Handlers.Orders
     {
         private readonly IOrderRepository _OrderRepository;
         private readonly IMapper _mapper;
+        private readonly IHubContext _hubContext;
 
         public OrderHandler(IOrderRepository OrderRepository, IMapper mapper)
         {
             _OrderRepository = OrderRepository;
             _mapper = mapper;
+            _hubContext = GlobalHost.ConnectionManager.GetHubContext<OrderStatusHub>();
         }
 
         public Task<PageableResult<OrderModel>> Handle(OrderPageableListQuery query, CancellationToken cancellationToken)
@@ -48,6 +52,9 @@ namespace DesafioIt.Application.Handlers.Orders
             );
 
             _OrderRepository.Save(dbOrder);
+
+            // update the frontend hub with SignalR
+            _hubContext.Clients.All.SendAsync("UpdateOrder", dbOrder);
             return Task.FromResult(dbOrder);
         }
 
